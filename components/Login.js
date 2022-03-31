@@ -8,7 +8,7 @@ function Login() {
 
   return (
     <div className="relative bg-black text-white">
-      <h1>I am the Login screen</h1>
+      <h1>Login screen</h1>
       <div
         className="absolute z-50 flex h-4/6 w-full flex-col items-center 
         justify-center space-y-4"
