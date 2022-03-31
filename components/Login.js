@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import background from '../public/background.jpg';
-import ProfilePic from '../public/ProfilePic.jpg';
+//import ProfilePic from '../public/ProfilePic.jpg';
 import { useMoralis } from "react-moralis";
 
 function Login() {
@@ -15,7 +15,7 @@ function Login() {
       >
         <Image
           className="rounded-full object-cover"
-          src={ProfilePic}
+          src='https://avatars.githubusercontent.com/u/98563443?s=400&u=efae7acbc3d77099eb41981724fc3305b691f83e&v=4'
           height={200}
           width={200}
         />
