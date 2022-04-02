@@ -14,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Welcome to the MetaChat App</h1>
+      <div className='max-w-screen'></div>
+
       <button onClick={logout}>Logout</button>
     </div>
   );
