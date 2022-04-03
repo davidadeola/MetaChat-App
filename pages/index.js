@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='max-w-screen'></div>
+      <div className='max-w-screen-2xl mx-auto'></div>
 
       <button onClick={logout}>Logout</button>
     </div>
