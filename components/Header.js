@@ -1,7 +1,7 @@
-import { useMoralis } from 'react'
+import { useMoralis } from 'react-moralis'
 
 function Header() {
-    //const { user } = useMoralis();
+    const { user } = useMoralis();
 
   return (
     <div>
