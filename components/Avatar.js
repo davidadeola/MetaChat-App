@@ -6,6 +6,7 @@ function Avatar({ username, logoutOnPress }) {
 
   return (
     <Image
+    className="rounded-full cursor-pointer bg-black hover:opacity-75"
       src={`https://avatars.dicebear.com/api/pixel-art/${
         username || user.get('username')
       }.svg`}

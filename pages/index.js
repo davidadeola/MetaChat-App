@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Login from '../components/Login';
-import Header from '../components/Header'
+import Header from '../components/Header';
+import Messages from '../components/Messages';
 import { useMoralis } from "react-moralis";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
   if (!isAuthenticated) return <Login />;
 
   return (
-    <div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-green-700 overflow-hidden">
+    <div className="h-screen overflow-y-scroll bg-gradient-to-b from-black to-blue-500 overflow-hidden">
       <Head>
         <title>Metaverse Chat App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,6 +18,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-screen-2xl">
         <Header />
+        <Messages />
       </div>
 
       <button onClick={logout}>Logout</button>
