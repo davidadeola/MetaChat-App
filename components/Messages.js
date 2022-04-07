@@ -24,6 +24,7 @@ function Messages() {
       </div>
       <div className="text-center text-gray-400 mt-5">
           <p>You're up to date {user.getUsername()}! </p>
+          <p>New paragraph</p>
       </div>
     </div>
   )
