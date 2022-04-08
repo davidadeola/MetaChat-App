@@ -12,7 +12,7 @@ function Messages() {
         />
       </div>
       <div>
-          {/* Each Message */}
+          <h1> This is the new message</h1>
       </div>
 
       <div>
