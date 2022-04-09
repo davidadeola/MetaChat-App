@@ -21,7 +21,7 @@ function ChaneUsername() {
         onClick={setUsername}
         className="hover:text-red-700"
       >
-        Change your username
+        Change your Username
       </button>
     </div>
   )
