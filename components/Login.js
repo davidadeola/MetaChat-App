@@ -21,7 +21,7 @@ function Login() {
 
         <button
           onClick={() => authenticate()}
-          className="animate-pulse rounded-lg bg-red-500 p-3 font-bold"
+          className="animate-bounce rounded-lg bg-red-500 p-3 font-bold"
         >
           Login to MetaChat
         </button>
