@@ -21,11 +21,6 @@ export default function Home() {
         <Messages />
       </div>
 
-      <main classname="max-w-7xl mx-auto px-8 sm:px-16">
-        <section classname="pt-6">
-          <h2 classname="text-4xl font-semibold pb-5"></h2>
-        </section>
-      </main>
     </div>
   )
 }
