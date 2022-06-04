@@ -23,7 +23,7 @@ function Login() {
           onClick={() => authenticate()}
           className="animate-bounce rounded-lg bg-red-500 p-3 font-bold"
         >
-          Login to MetaChat
+          Log in to MetaChat
         </button>
       </div>
       <div className="h-screen w-full">
