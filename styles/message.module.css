@@ -1,0 +1,44 @@
+.messageContainer {
+  width: 16em;
+  display: flex;
+  gap: .5em;
+  /* border: 1px solid red; */
+  margin-block: .3em;
+}
+
+.avatar {
+  width: 2.5em;
+  height: 2.5em;
+  min-width: 2.5em;
+  min-height: 2.5em;
+  background-color: #1E2636;
+  position: relative;
+  border-radius: .5em;
+}
+
+.message {
+  width: 100%;
+  background-color: #1E2636;
+  display: flex;
+  flex-direction: column;
+  border-radius: .9em .3em .9em .3em;
+  padding: .6em .6em .4em;
+}
+
+.messageText {
+  height: 100%;
+  font-size: .8em;
+  padding-block-end: .7em;
+  color: #ffffffcc;
+}
+
+.messageInfo {
+  white-space: nowrap;
+  font-size: .6em;
+  color: #727A8A;
+  text-align: right;
+}
+
+.messageInfo>*:first-child {
+  font-style: italic;
+}

@@ -1,0 +1,8 @@
+.footer div {
+  padding-block-end: 5em;
+  text-align: right;
+}
+
+.footer div p {
+  padding-block-end: .5em;
+}

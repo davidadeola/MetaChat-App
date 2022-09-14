@@ -1,0 +1,41 @@
+.profile {
+  min-width: 16em;
+  min-height: 16em;
+  background-color: #0E1420;
+  display: none;
+  gap: .5em;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #1E2636;
+  padding: .9em;
+  border-radius: 1.25em;
+}
+
+@media screen and (min-width: 800px) {
+  .profile {
+    display: flex;
+  }
+}
+
+.profilePic {
+  width: 70%;
+  height: 70%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profilePic img {
+  object-fit: cover;
+}
+
+.profile button {
+  width: 100%;
+  background-color: #1E2636;
+  padding-block: .8em;
+  border-radius: .3em;
+  font-size: .9rem;
+  margin-block-start: 1.5em;
+}

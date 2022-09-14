@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.poweredBy {
+  align-self: flex-end;
+}
