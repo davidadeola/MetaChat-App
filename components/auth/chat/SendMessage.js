@@ -27,7 +27,7 @@ function SendMessage({ endOfMessagesRef }) {
         }
       )
 
-    // endOfMessagesRef.current.scrollIntoView({ behaviour: 'smooth' })
+    endOfMessagesRef?.current?.scrollIntoView({ behaviour: 'smooth' })
 
     setMessage('')
   }

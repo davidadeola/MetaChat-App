@@ -9,6 +9,7 @@ import { Warning } from './Icon'
 import MetaMaskLogo from '../public/metamaskLogo.png'
 
 import style from '../styles/login.module.css'
+import Link from 'next/link'
 
 function Login() {
   const { authenticate } = useMoralis()
@@ -46,13 +47,16 @@ function Login() {
           >
             Connect Wallet
           </button>
-
-          <button className={style.metamask}>
+          <a
+            target="_"
+            href="https://metamask.io/download/"
+            className={style.metamask}
+          >
             <span className={style.metalogo}>
               <Image src={MetaMaskLogo} width={15} height={15} />
             </span>
             Download Metamask
-          </button>
+          </a>
         </div>
         <div className={style.heroRight} ref={container}></div>
       </div>

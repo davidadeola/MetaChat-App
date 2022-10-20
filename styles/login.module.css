@@ -58,11 +58,12 @@
 }
 
 .metamask {
-  padding: 20px 35px;
+  padding: 20px 35px !important;
   background: var(--sub-color-two);
   color: var(--color-white);
   border-radius: 5px;
   display: flex;
+  width: 250px;
   margin-top: 40px;
   cursor: pointer;
   border: none;
